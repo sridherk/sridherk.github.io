@@ -183,6 +183,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'app';
+        this.isCollapsed = false;
     }
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -470,7 +471,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid header-bg align-middle\">\n  <img src=\"./assets/images/profile-pic.jpg\" class=\"mt-2 rounded-circle\" alt=\"Sridher\" width=\"65\" height=\"65\">\n  <span class=\"mt-5 ml-3 white-font\">Sridher Krishnamoorthy</span>\n</div>\n<nav class=\"navbar navbar-expand-md bg-dark navbar-dark sticky-top\">\n  <a class=\"navbar-brand\" routerLink=\"/\">Sridher K</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsibleNavbar\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse ml-3\" id=\"collapsibleNavbar\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{ exact: true }\">\n        <a class=\"nav-link\" routerLink=\"/\">About</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/education\">Education</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/skills\">Skills</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/experience\">Experience</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/contact\">Contact</a>\n      </li>\n    </ul>\n  </div>\n</nav>\n"
+module.exports = "<div class=\"container-fluid header-bg align-middle\">\n  <img src=\"./assets/images/profile-pic.jpg\" class=\"mt-2 rounded-circle\" alt=\"Sridher\" width=\"65\" height=\"65\">\n  <span class=\"mt-5 ml-3 white-font\">Sridher Krishnamoorthy</span>\n</div>\n<nav class=\"navbar navbar-expand-md bg-dark navbar-dark sticky-top\">\n  <a class=\"navbar-brand\" routerLink=\"/\">Sridher K</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsibleNavbar\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"collapsibleNavbar\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{ exact: true }\">\n        <a class=\"nav-link\" routerLink=\"/\">About</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/education\">Education</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/skills\">Skills</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/experience\">Experience</a>\n      </li>\n      <li class=\"nav-item\" routerLinkActive=\"active\">\n        <a class=\"nav-link\" routerLink=\"/contact\">Contact</a>\n      </li>\n    </ul>\n  </div>\n</nav>\n"
 
 /***/ }),
 
