@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"p-2\">\n  <h3>About</h3>\n  <div class=\"mt-4 row\">\n    <span class=\"p-3 m-2 col-md-1 col-3 rounded-circle bg-primary text-white text-center\">Java script</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-dark text-white text-center\">Type script</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-secondary text-white\">HTML5</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-success text-white\">Extjs</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-info text-white\">Angular 5</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-danger text-white\">React.js</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-warning text-white\">Jquery</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-secondary text-white\">Boot strap</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-dark text-white\">D3.js</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-info text-white\">CSS</span>\n    <span class=\"p-3 m-2 text-center col-md-1 col-3 rounded-circle bg-primary text-white\">SCSS</span>\n    <div class=\"m-3\">\n      I am Sridher, UI/Web Developer. Totally 11 years of experience in IT industry. Completed my B.Tech degree in the year of 2006 and started my career in small organization as software developer role.\n    </div>\n     \n  </div>\n</div>"
+module.exports = "<h3 class=\"title-text\">About</h3>\n<div class=\"row footer-bg align-center mb-5\">\n  <div class=\"m-3\">\n    I am Sridher, UI/Web Developer. Totally 11 years of experience in IT industry. Completed my B.Tech degree in the year of\n    2006 and started my career as a software developer. Below are my skills which i have realtime experience.\n  </div>\n  <div class=\"col-12 subtitle-text\">Domain:</div>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-dark text-white text-center\">Banking</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-danger text-white\">Retail</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-success text-white\">e-learning</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-info text-white\">Product &nbsp;</span>\n  \n  <div class=\"col-12 subtitle-text\">Technology:</div>\n  <span class=\"p-3 m-2 col-md-2 col-3 rounded-circle bg-primary text-white text-center\">Java script</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-dark text-white text-center\">Type script</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-secondary text-white\">HTML5</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-success text-white\">Extjs</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-info text-white\">Angular 5</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-danger text-white\">React.js</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-warning text-white\">Jquery</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-info text-white\">Boot strap</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-dark text-white\">D3.js</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-danger text-white\">CSS</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-secondary text-white\">SCSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>\n  \n  <div class=\"col-12 subtitle-text\">Methodology:</div>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-dark text-white text-center\">Agile</span>\n  <span class=\"p-3 m-2 text-center col-md-2 col-3 rounded-circle bg-danger text-white\">Waterfall &nbsp;</span>\n  <div class=\"col-12\">End</div>\n</div>\n"
 
 /***/ }),
 
@@ -158,7 +158,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-container\" style=\"height: 800px;\">\n  <app-header></app-header>\n  <div class=\"ml-md-5 mr-md-5 ml-xs-5 mr-xs-2\">\n    <router-outlet></router-outlet>\n  </div>\n  <div class=\"container-fluid footer-bg align-middle fixed-bottom\">\n    <span class=\"float-right\">&copy; Sridher K </span>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main-container\">\n  <app-header></app-header>\n  <div class=\"container-fluid\">\n    <div class=\"col-md-10 offset-md-1 col-12\">\n      <router-outlet></router-outlet>\n    </div>\n  </div>\n  <div class=\"container-fluid footer-bg align-middle fixed-bottom\">\n    <span class=\"float-right\">&copy; Sridher K </span>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -282,7 +282,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<h3 class=\"title-text\">Contact</h3>\n<div class=\"row footer-bg align-center mb-5\">\n  \n</div>"
 
 /***/ }),
 
@@ -345,7 +345,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  education works!\n</p>\n"
+module.exports = "<h3 class=\"title-text\">Education</h3>\n<div class=\"row footer-bg align-center mb-5\">\n  \n</div>"
 
 /***/ }),
 
@@ -408,7 +408,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  experience works!\n</p>\n"
+module.exports = "<h3 class=\"title-text\">Experience</h3>\n<div class=\"row footer-bg align-center mb-5\">\n  \n</div>"
 
 /***/ }),
 
@@ -534,7 +534,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  skills works!\n</p>\n"
+module.exports = "<h3 class=\"title-text\">Skills</h3>\n<div class=\"row footer-bg align-center mb-5\">\n  \n</div>\n"
 
 /***/ }),
 
